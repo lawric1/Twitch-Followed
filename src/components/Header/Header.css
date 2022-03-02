@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #18181b;
+    height: 48px;
+}
+
+.title {
+    margin: 0;
+    margin-left: 16px;
+    color: #d2d2df;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 16px;
+    color: #d2d2df;
+}

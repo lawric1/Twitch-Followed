@@ -1,0 +1,50 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 24px;
+    width: 140px;
+    height: 180px;
+
+    background-color: #412b60;
+    color: #d2d2df;
+
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    background-color: #59427a;
+    color: #ffffff;
+
+    cursor: pointer;
+}
+
+.card img {
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.card .channelName {
+    margin: 0;
+    padding: 14px 0px;
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card .followed {
+    margin: 0;
+    padding: 0;
+
+    color: #b8b8ce;
+    opacity: 0.5;
+
+    font-size: 12px;
+    font-weight: lighter;
+}
