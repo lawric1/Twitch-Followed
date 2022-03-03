@@ -1,5 +1,6 @@
 import "./ChannelCard.css";
 
+
 export function ChannelCard(props) {
     function openChannel() {
         window.open("https://www.twitch.tv/" + props.name, "_blank");

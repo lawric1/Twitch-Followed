@@ -1,14 +1,22 @@
 nav {
+    position: fixed;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #18181b;
+
+    width: 100%;
     height: 48px;
+
+    background-color: #18181b;
+
+    z-index: 999;
 }
 
 .title {
     margin: 0;
     margin-left: 16px;
+
     color: #d2d2df;
 }
 
@@ -19,10 +27,21 @@ ul {
 
     margin: 0;
     padding: 0;
+
     list-style-type: none;
 }
 
-li {
-    margin-right: 16px;
+a {
+    margin-right: 20px;
+
+    color: #59427a;
+
+    font-size: 24px;
+    text-decoration: none;
+
+    transition: color 0.4s;
+}
+
+a:hover {
     color: #d2d2df;
 }
