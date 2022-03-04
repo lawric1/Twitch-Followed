@@ -156,7 +156,6 @@ function App() {
     return (
         <>
             <Header />
-            <h1>hello</h1>
             <SearchField callback={requestChannelsData} />
             <Main status={status} data={channelsData} />
         </>
@@ -165,6 +164,7 @@ function App() {
 
 export default App;
 
+//
 // Organize Css 
 // Hide api keys (backend maybe)
 // Update Readme
