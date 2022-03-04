@@ -30,7 +30,8 @@ export function SearchField(props) {
                 className="search"
                 type="text"
                 placeholder="ex: buddha"
-                onChange={updateInput} />
+                onChange={updateInput}
+                spellcheck="false" />
             
             <input className="button" type="submit" value="Search" />
         </form>
