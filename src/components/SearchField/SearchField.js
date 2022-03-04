@@ -13,6 +13,10 @@ export function SearchField(props) {
 
 
     function handleSubmit(event) {
+        if (!input) { 
+            event.preventDefault();
+            return 
+        }
         // callback function is "requestChannelsData" from the App component.
         props.callback(input);
         // preventDefault is used so the page don't reload when the submit button is clicked.

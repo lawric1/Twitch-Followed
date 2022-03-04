@@ -50,7 +50,7 @@ function App() {
 
         // Each object in this list contains the id of the channel. This id will be used to request information like the profile picture and name.
         let channelList;
-        
+
         try { 
             channelList = await getFollowedChannels(user); 
         } catch (e) { 
@@ -156,6 +156,7 @@ function App() {
     return (
         <>
             <Header />
+            <h1>hello</h1>
             <SearchField callback={requestChannelsData} />
             <Main status={status} data={channelsData} />
         </>
@@ -165,6 +166,6 @@ function App() {
 export default App;
 
 // Organize Css 
-// Hide api keys
+// Hide api keys (backend maybe)
 // Update Readme
 // Try to host the site
