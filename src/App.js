@@ -29,14 +29,11 @@ export function Main(props) {
 
 
 function App() {
-    //ClientID  - mbmmn9gzx8qhy5qd1c7pnltqidmpdv
-    //Access token - Bearer 8hwo5e7fogfxxbqmehf8hqjb9qm2u3
-
     const [status, setStatus] = useState("");
     const [channelsData, setChannelsData] = useState([]);
 
-    const token = 'Bearer 8hwo5e7fogfxxbqmehf8hqjb9qm2u3';
-    const clientID = 'mbmmn9gzx8qhy5qd1c7pnltqidmpdv';
+    const token = 'Bearer ' + process.env.REACT_APP_API_TOKEN;
+    const clientID = process.env.REACT_APP_API_CLIENTID;
     const headers = new Headers({
         'Authorization': token, 
         'Client-ID': clientID
@@ -163,9 +160,3 @@ function App() {
 }
 
 export default App;
-
-//
-// Organize Css 
-// Hide api keys (backend maybe)
-// Update Readme
-// Try to host the site

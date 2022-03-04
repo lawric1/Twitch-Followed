@@ -13,8 +13,10 @@ form {
 .search {
     width: 80%;
     height: 24px;
+
     background-color: #0e0e10;
     color: #d2d2df;
+
     text-align: center;
 
     border: 2px solid #412b60;
@@ -41,6 +43,7 @@ form {
     margin-left: 6px;
     width: 10%;
     height: 28px;
+    
     background-color: #412b60;
     color: #d2d2df;
 
